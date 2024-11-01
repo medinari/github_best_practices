@@ -2,14 +2,20 @@
 # Table of Contents
 
 - [Best Practices for Github repositories](#best-practices-for-github-repositories)
-  - [New GitHub repositories](#new-github-repositories)
+  - [Best Practices for NEW GitHub repositories](#best-practices-for-new-github-repositories)
+    - [Best practice to create a new GitHub repository](#best-practice-to-create-a-new-github-repository)
+    - [Adding a license is a recommended best practice for a public GitHub repository:](#adding-a-license-is-a-recommended-best-practice-for-a-public-github-repository)
   - [Best practice to clone GitHub repositories: HTTPS vs SSH](#best-practice-to-clone-github-repositories-https-vs-ssh)
+    - [HTTPS Clone](#https-clone)
+    - [SSH Clone](#ssh-clone)
+    - [Git Protocol (Read-Only)](#git-protocol-read-only)
+    - [Summary Table](#summary-table)
   - [Best Practices for managing a GitHub repository:](#best-practices-for-managing-a-github-repository)
 
 <!-- TOC END -->
 # Best Practices for Github repositories
 
-## New GitHub repositories
+## Best Practices for NEW GitHub repositories
 
 ### Best practice to create a new GitHub repository
 
