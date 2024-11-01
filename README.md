@@ -6,6 +6,15 @@
   - [2. Best practices to clone GitHub repositories: HTTPS vs SSH vs Git Protocol](#2-best-practices-to-clone-github-repositories-https-vs-ssh-vs-git-protocol)
   - [3. Best Practices for GitHub Repository Naming](#3-best-practices-for-github-repository-naming)
   - [4. Best Practices for managing a GitHub repository:](#4-best-practices-for-managing-a-github-repository)
+- [Project Title](#project-title)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Technologies Used](#technologies-used)
+  - [License](#license)
+  - [Contact](#contact)
+  - [Acknowledgments](#acknowledgments)
 
 <!-- TOC END -->
 # Best Practices for Github repositories
