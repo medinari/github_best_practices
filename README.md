@@ -65,7 +65,17 @@ GitHub makes this easy:
 2. Select **Add a LICENSE** during setup, which gives you a list of popular licenses.
 3. Alternatively, add a `LICENSE` file yourself with the content of the license you choose.
 
-## 2. Best practice to clone GitHub repositories: HTTPS vs SSH
+## 2. Best practices to clone GitHub repositories: HTTPS vs SSH vs Git Protocol
+
+### Summary of Methods Available for Clone GitHub Repositories
+
+| Clone Method | Command Example                                        | Use Case                        |
+|--------------|--------------------------------------------------------|---------------------------------|
+| HTTPS        | `git clone https://github.com/username/repository.git` | For simple setup or infrequent use with authentication prompts. |
+| SSH          | `git clone git@github.com:username/repository.git`     | For regular users with SSH keys configured; no repeated prompts. |
+| Git Protocol | `git clone git://github.com/username/repository.git`   | For fast, read-only access to public repositories.              |
+
+In most development environments, **SSH is the preferred choice** due to its secure authentication, seamless integration, and user-friendly setup. The following explains why SSH is advantageous in these settings.
 
 ### HTTPS Clone
 The HTTPS URL is often the default option displayed on Git hosting platforms like GitHub.
@@ -101,16 +111,6 @@ Use case:
 ```bash
 git clone git://github.com/username/repository.git
 ```
-### Summary Table
-
-| Clone Method | Command Example                                        | Use Case                        |
-|--------------|--------------------------------------------------------|---------------------------------|
-| HTTPS        | `git clone https://github.com/username/repository.git` | For simple setup or infrequent use with authentication prompts. |
-| SSH          | `git clone git@github.com:username/repository.git`     | For regular users with SSH keys configured; no repeated prompts. |
-| Git Protocol | `git clone git://github.com/username/repository.git`   | For fast, read-only access to public repositories.              |
-
-In most development environments, **SSH is the preferred option** due to its secure, seamless authentication and ease of use.
-
 ## 3. Best Practices for managing a GitHub repository:
 1. **Create a README File**: This is essential for providing an overview of your project, instructions on how to set it up, and any other relevant information.
 
