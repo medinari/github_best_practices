@@ -67,7 +67,7 @@ GitHub makes this easy:
 
 ## 2. Best practices to clone GitHub repositories: HTTPS vs SSH vs Git Protocol
 
-### Summary of Methods Available for Clone GitHub Repositories
+### Methods Available for Clone GitHub Repositories
 
 | Clone Method | Command Example                                        | Use Case                        |
 |--------------|--------------------------------------------------------|---------------------------------|
@@ -85,10 +85,6 @@ Use case:
 - **Public repositories**: For simple, read-only clones, HTTPS can be convenient.
 - **Authentication required**: If pushing to a private repository, Git will prompt for a username and password or a GitHub personal access token.
 
-#### Example of Cloning with HTTPS
-```bash
-git clone https://github.com/username/repository.git
-```
 ### SSH Clone
 The SSH URL is the recommended way to clone a repository if you have an SSH key set up with your GitHub (or other Git hosting) account. SSH avoids repeated prompts for your username and password by using your SSH key for authentication.
 
@@ -96,21 +92,12 @@ Use case:
 - **Frequent contributors**: SSH is ideal for developers who regularly push/pull code.
 - **Secure and seamless**: Authentication is handled through SSH keys, removing the need to enter credentials on each action.
 
-#### Example of Cloning with SSH
-```bash
-git clone git@github.com:username/repository.git
-```
-
 ### Git Protocol (Read-Only)
 The Git protocol is the fastest way to clone, but it is **read-only** and does not support authentication, so it’s typically used for public repositories.
 Use case:
 - **Read-only access**: Useful for cloning public repositories where you only need to pull and don’t need to push.
 - **Efficiency**: Generally faster than HTTPS or SSH, as it doesn’t handle authentication, but lacks encryption.
 
-#### Example of Cloning with Git Protocol
-```bash
-git clone git://github.com/username/repository.git
-```
 ## 3. Best Practices for managing a GitHub repository:
 1. **Create a README File**: This is essential for providing an overview of your project, instructions on how to set it up, and any other relevant information.
 
