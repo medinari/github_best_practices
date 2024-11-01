@@ -3,18 +3,17 @@
 
 - [Best Practices for Github repositories](#best-practices-for-github-repositories)
   - [1. Best Practices for NEW GitHub repositories](#1-best-practices-for-new-github-repositories)
+    - [1.1. 🛠️ Best practice to create a new GitHub repository](#11--best-practice-to-create-a-new-github-repository)
+    - [1.2. 📄 Adding a License is a Recommended Best Practice for a Public GitHub Repository](#12--adding-a-license-is-a-recommended-best-practice-for-a-public-github-repository)
   - [2. Best practices to clone GitHub repositories: HTTPS vs SSH vs Git Protocol](#2-best-practices-to-clone-github-repositories-https-vs-ssh-vs-git-protocol)
+    - [Methods Available for Clone GitHub Repositories](#methods-available-for-clone-github-repositories)
+    - [HTTPS Clone](#https-clone)
+    - [SSH Clone](#ssh-clone)
+    - [Git Protocol (Read-Only)](#git-protocol-read-only)
   - [3. Best Practices for GitHub Repository Naming](#3-best-practices-for-github-repository-naming)
+    - [📋  Example Names](#--example-names)
   - [4. Best Practices for managing a GitHub repository:](#4-best-practices-for-managing-a-github-repository)
-- [Project Title](#project-title)
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Technologies Used](#technologies-used)
-  - [License](#license)
-  - [Contact](#contact)
-  - [Acknowledgments](#acknowledgments)
+    - [4.1. 📄 Best Practices for Creating a README File for Your GitHub Repository](#41--best-practices-for-creating-a-readme-file-for-your-github-repository)
 
 <!-- TOC END -->
 # Best Practices for Github repositories
@@ -220,7 +219,7 @@ A well-crafted README file serves as the first point of contact for users intera
 - **🌟 Acknowledge Contributors**:  
   Recognize the contributors and collaborators involved in the project. This promotes a sense of community and appreciation.
 
-### 🔍 Example Structure of a README
+#### 🔍 Example Structure of a README
 
 ```markdown
 # Project Title
@@ -235,23 +234,23 @@ cd repo-name
 npm install
 ```
 
-## Usage
+### Usage
 Instructions and examples for using the project.
 
-## Contributing
+### Contributing
 Guidelines for how to contribute to this project.
 
-## Technologies Used
+### Technologies Used
 - Technology 1
 - Technology 2
 
-## License
+### License
 This project is licensed under the MIT License.
 
-## Contact
+### Contact
 Your Name - your.email@example.com
 
-## Acknowledgments
+### Acknowledgments
 Thank you to all the contributors!
 ```
 
