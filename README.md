@@ -1,3 +1,8 @@
+  - [Best practice to create a new GitHub repository:](#best-practice-to-create-a-new-github-repository:)
+  - [Best practice to clone a new GitHub repository:](#best-practice-to-clone-a-new-github-repository:)
+  - [Adding a license is a recommended best practice for a public GitHub repository:](#adding-a-license-is-a-recommended-best-practice-for-a-public-github-repository:)
+  - [Best Practices for managing a GitHub repository:](#best-practices-for-managing-a-github-repository:)
+
 ## Best practice to create a new GitHub repository:
 
 1. **Log in to GitHub**: Go to GitHub and log in to your account.
@@ -70,8 +75,6 @@ git clone git://github.com/username/repository.git
 | Git Protocol | `git clone git://github.com/username/repository.git`   | For fast, read-only access to public repositories.              |
 
 In most development environments, **SSH is the preferred option** due to its secure, seamless authentication and ease of use.
-### Summary
-Whenever you clone a GitHub repository, using the **SSH URL** instead of HTTPS ensures that Git will use your SSH keys for authentication. This approach keeps you from having to enter your GitHub credentials every time you push or pull changes.
 
 ## Adding a license is a recommended best practice for a public GitHub repository:
 A license clarifies the terms under which others can use, modify, and distribute your code, helping protect both your rights as the creator and the users' rights. Here’s an overview to guide you:
