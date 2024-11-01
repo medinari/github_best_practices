@@ -1,7 +1,22 @@
-  - [Best practice to create a new GitHub repository:](#best-practice-to-create-a-new-github-repository:)
-  - [Best practice to clone a new GitHub repository:](#best-practice-to-clone-a-new-github-repository:)
-  - [Adding a license is a recommended best practice for a public GitHub repository:](#adding-a-license-is-a-recommended-best-practice-for-a-public-github-repository:)
-  - [Best Practices for managing a GitHub repository:](#best-practices-for-managing-a-github-repository:)
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [Best practice to create a new GitHub repository:](#best-practice-to-create-a-new-github-repository)
+- [Best practice to clone a new GitHub repository:](#best-practice-to-clone-a-new-github-repository)
+    - [1. HTTPS Clone](#1-https-clone)
+        - [Example of Cloning with HTTPS](#example-of-cloning-with-https)
+    - [2. SSH Clone](#2-ssh-clone)
+        - [Example of Cloning with SSH](#example-of-cloning-with-ssh)
+    - [3. Git Protocol (Read-Only)](#3-git-protocol-read-only)
+        - [Example of Cloning with Git Protocol](#example-of-cloning-with-git-protocol)
+    - [Summary Table](#summary-table)
+- [Adding a license is a recommended best practice for a public GitHub repository:](#adding-a-license-is-a-recommended-best-practice-for-a-public-github-repository)
+    - [Why Add a License?](#why-add-a-license)
+    - [Choosing a License](#choosing-a-license)
+    - [How to Add a License](#how-to-add-a-license)
+- [Best Practices for managing a GitHub repository:](#best-practices-for-managing-a-github-repository)
+
+<!-- markdown-toc end -->
 
 ## Best practice to create a new GitHub repository:
 
