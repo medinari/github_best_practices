@@ -12,7 +12,7 @@
 
 ## 1. Best Practices for NEW GitHub repositories
 
-### 🛠️ Best practice to create a new GitHub repository
+### 1.1. 🛠️ Best practice to create a new GitHub repository
 
 1. **🔑 Log in to GitHub**:  
    Go to GitHub and log in to your account.
@@ -42,7 +42,7 @@
 
 ---
 
-### 📄 Adding a License is a Recommended Best Practice for a Public GitHub Repository
+### 1.2. 📄 Adding a License is a Recommended Best Practice for a Public GitHub Repository
 
 A license clarifies the terms under which others can use, modify, and distribute your code, helping protect both your rights as the creator and the users' rights. Here’s an overview to guide you:
 
@@ -141,8 +141,6 @@ Use case:
 - **🚫 Avoid**: `awesome!!!#@project`
 
 ---
-
-This format not only makes the information clearer but also adds a fun visual element that can make it more engaging for readers. Let me know if you need further modifications or additions!## 
 
 ## 4. Best Practices for managing a GitHub repository:
 1. **Create a README File**: This is essential for providing an overview of your project, instructions on how to set it up, and any other relevant information.
