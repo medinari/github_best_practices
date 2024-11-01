@@ -1,4 +1,4 @@
-## Best workflow to create a new GitHub repository:
+## Best practice to create a new GitHub repository:
 
 1. **Log in to GitHub**: Go to GitHub and log in to your account.
 
@@ -24,6 +24,27 @@
 
 7. **Collaborate and Manage**:
    - Use GitHub features like **Issues**, **Pull Requests**, and **Projects** to manage and collaborate on your repository.
+
+## Adding a license is a recommended best practice for a public GitHub repository:
+A license clarifies the terms under which others can use, modify, and distribute your code, helping protect both your rights as the creator and the users' rights. Here’s an overview to guide you:
+
+### Why Add a License?
+1. **Encourages Usage and Collaboration**: Without a license, people may be unsure if they can legally use or contribute to your project.
+2. **Defines Permissions**: A license spells out what others can and can’t do with your code (e.g., commercial use, modifications).
+3. **Protects Your Work**: Open source licenses often include disclaimers, protecting you from liability for issues arising from use of your code.
+
+### Choosing a License
+The best license depends on how you want others to use your code:
+- **MIT License**: Simple, permissive, and widely used. Allows anyone to do nearly anything with your code as long as they include the original license and copyright notice.
+- **Apache License 2.0**: Similar to MIT but includes patent rights, offering broader legal protection for both you and users.
+- **GPL (General Public License)**: Requires that any derivative works also be open source (referred to as “copyleft”). Good for projects intended to remain open and freely available.
+- **Creative Commons Zero (CC0)**: This effectively places your work in the public domain, allowing unrestricted use with no attribution requirement. It’s ideal for non-software assets but can also be used for code if you don’t mind unrestricted usage.
+
+### How to Add a License
+GitHub makes this easy:
+1. Create a new repository.
+2. Select **Add a LICENSE** during setup, which gives you a list of popular licenses.
+3. Alternatively, add a `LICENSE` file yourself with the content of the license you choose.
 
 ## Best Practices for managing a GitHub repository:
 
