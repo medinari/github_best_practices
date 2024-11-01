@@ -25,6 +25,67 @@
 7. **Collaborate and Manage**:
    - Use GitHub features like **Issues**, **Pull Requests**, and **Projects** to manage and collaborate on your repository.
 
+## Best practice to clone a new GitHub repository:
+
+### 1. HTTPS Clone
+The HTTPS URL is often the default option displayed on Git hosting platforms like GitHub. Use case:
+- **Easy setup**: Works out-of-the-box without any additional SSH setup.
+- **Public repositories**: For simple, read-only clones, HTTPS can be convenient.
+- **Authentication required**: If pushing to a private repository, Git will prompt for a username and password or a GitHub personal access token.
+
+#### Format
+```
+https://github.com/username/repository.git
+```
+
+#### Example of Cloning with HTTPS
+```bash
+git clone https://github.com/username/repository.git
+```
+
+### 2. SSH Clone
+The SSH URL is the recommended way to clone a repository if you have an SSH key set up with your GitHub (or other Git hosting) account. SSH avoids repeated prompts for your username and password by using your SSH key for authentication. Use case:
+- **Frequent contributors**: SSH is ideal for developers who regularly push/pull code.
+- **Secure and seamless**: Authentication is handled through SSH keys, removing the need to enter credentials on each action.
+
+#### Format
+```
+git@github.com:username/repository.git
+```
+
+#### Example of Cloning with SSH
+```bash
+git clone git@github.com:username/repository.git
+```
+
+### 3. Git Protocol (Read-Only)
+The Git protocol is the fastest way to clone, but it is **read-only** and does not support authentication, so it’s typically used for public repositories. Use case:
+- **Read-only access**: Useful for cloning public repositories where you only need to pull and don’t need to push.
+- **Efficiency**: Generally faster than HTTPS or SSH, as it doesn’t handle authentication, but lacks encryption.
+
+
+#### Format
+```
+git://github.com/username/repository.git
+```
+
+#### Example of Cloning with Git Protocol
+```bash
+git clone git://github.com/username/repository.git
+```
+
+### Summary Table
+
+| Clone Method | URL Format                                     | Command Example                                        | Use Case                        |
+|--------------|------------------------------------------------|--------------------------------------------------------|---------------------------------|
+| HTTPS        | `https://github.com/username/repository.git`   | `git clone https://github.com/username/repository.git` | For simple setup or infrequent use with authentication prompts. |
+| SSH          | `git@github.com:username/repository.git`       | `git clone git@github.com:username/repository.git`     | For regular users with SSH keys configured; no repeated prompts. |
+| Git Protocol | `git://github.com/username/repository.git`     | `git clone git://github.com/username/repository.git`   | For fast, read-only access to public repositories.              |
+
+In most development environments, **SSH is the preferred option** due to its secure, seamless authentication and ease of use.
+### Summary
+Whenever you clone a GitHub repository, using the **SSH URL** instead of HTTPS ensures that Git will use your SSH keys for authentication. This approach keeps you from having to enter your GitHub credentials every time you push or pull changes.
+
 ## Adding a license is a recommended best practice for a public GitHub repository:
 A license clarifies the terms under which others can use, modify, and distribute your code, helping protect both your rights as the creator and the users' rights. Here’s an overview to guide you:
 
