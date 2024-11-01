@@ -44,7 +44,7 @@
 7. **Collaborate and Manage**:
    - Use GitHub features like **Issues**, **Pull Requests**, and **Projects** to manage and collaborate on your repository.
 
-### Adding a license is a recommended best practice for a public GitHub repository:
+### Adding a license is a recommended best practice for a public GitHub repository
 A license clarifies the terms under which others can use, modify, and distribute your code, helping protect both your rights as the creator and the users' rights. Here’s an overview to guide you:
 
 #### Why Add a License?
