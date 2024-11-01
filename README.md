@@ -2,20 +2,20 @@
 # Table of Contents
 
 - [Best Practices for Github repositories](#best-practices-for-github-repositories)
-  - [Best Practices for NEW GitHub repositories](#best-practices-for-new-github-repositories)
+  - [1. Best Practices for NEW GitHub repositories](#1-best-practices-for-new-github-repositories)
     - [Best practice to create a new GitHub repository](#best-practice-to-create-a-new-github-repository)
-    - [Adding a license is a recommended best practice for a public GitHub repository:](#adding-a-license-is-a-recommended-best-practice-for-a-public-github-repository)
-  - [Best practice to clone GitHub repositories: HTTPS vs SSH](#best-practice-to-clone-github-repositories-https-vs-ssh)
+    - [Adding a license is a recommended best practice for a public GitHub repository](#adding-a-license-is-a-recommended-best-practice-for-a-public-github-repository)
+  - [2. Best practice to clone GitHub repositories: HTTPS vs SSH](#2-best-practice-to-clone-github-repositories-https-vs-ssh)
     - [HTTPS Clone](#https-clone)
     - [SSH Clone](#ssh-clone)
     - [Git Protocol (Read-Only)](#git-protocol-read-only)
     - [Summary Table](#summary-table)
-  - [Best Practices for managing a GitHub repository:](#best-practices-for-managing-a-github-repository)
+  - [3. Best Practices for managing a GitHub repository:](#3-best-practices-for-managing-a-github-repository)
 
 <!-- TOC END -->
 # Best Practices for Github repositories
 
-## Best Practices for NEW GitHub repositories
+## 1. Best Practices for NEW GitHub repositories
 
 ### Best practice to create a new GitHub repository
 
@@ -65,7 +65,7 @@ GitHub makes this easy:
 2. Select **Add a LICENSE** during setup, which gives you a list of popular licenses.
 3. Alternatively, add a `LICENSE` file yourself with the content of the license you choose.
 
-## Best practice to clone GitHub repositories: HTTPS vs SSH
+## 2. Best practice to clone GitHub repositories: HTTPS vs SSH
 
 ### HTTPS Clone
 The HTTPS URL is often the default option displayed on Git hosting platforms like GitHub.
@@ -111,7 +111,7 @@ git clone git://github.com/username/repository.git
 
 In most development environments, **SSH is the preferred option** due to its secure, seamless authentication and ease of use.
 
-## Best Practices for managing a GitHub repository:
+## 3. Best Practices for managing a GitHub repository:
 1. **Create a README File**: This is essential for providing an overview of your project, instructions on how to set it up, and any other relevant information.
 
 2. **Use Branching Over Forking**: For regular collaborators, it's better to work from a single repository and create pull requests between branches. This helps streamline collaboration.
